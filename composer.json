@@ -1,0 +1,23 @@
+{
+    "name": "dosje_in/priitbot",
+    "description": "",
+    "authors": [
+        {
+            "name": "John Dosje",
+            "email": "vk@dosje.in"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/traits"
+        ],
+        "psr-0": {
+            "Dosje_in\\priitbot\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
